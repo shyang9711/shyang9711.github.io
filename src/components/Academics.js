@@ -47,7 +47,7 @@ const Academics = () => {
           name: 'k-NN', 
           skill: ['Machine Learning'],
           description: 'Implemented k-Nearest Neighbors to estimate the longitude and latitude of a given query image using other geo-tagged images.',
-          pdfUrl: `${process.env.PUBLIC_URL}/Academics/CS189/IM2Spain/CS189_hw7_IM2SPAIN.pdf`,
+          pdfUrl: `${process.env.PUBLIC_URL}/academics/CS189/IM2Spain/CS189_hw7_IM2SPAIN.pdf`,
         },
       ],
     },
@@ -105,20 +105,20 @@ const Academics = () => {
           description: `Snek is a classic snake game developed in C, where the primary objective is to navigate the snake within a board, avoiding collisions with walls, its own body, or tail while aiming to consume the fruit represented by '*'. The game supports multiple snakes and obstacles, and the world is not necessarily confined to a box shape. The snake's head is indicated by 'W', 'A', 'S', or 'D', depending on the last key pressed, while the tail is marked by 'w', 'a', 's', or 'd'. The body segments are represented by '^', '<', 'v', and '>', denoting their direction. `,
           images: [
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61C/Snek/Snek Eat Before.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61C/Snek/Snek Eat Before.png`,
               caption: 'Snek Before Eating the Fruit',
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61C/Snek/Snek Eat After.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61C/Snek/Snek Eat After.png`,
               caption: 'Snek After Eating the Fruit',
               description: `As the snake consumes the fruit, it grows longer, increasing the challenge. Also, a new fruit spawns elsewhere within the world at a randomly chosen location. Players control the snake using the keys 'w', 'a', 's', and 'd' to move up, left, down, and right, respectively.`
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61C/Snek/Snek Death Before.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61C/Snek/Snek Death Before.png`,
               caption: 'Snek Before Eating the Fruit',
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61C/Snek/Snek Death After.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61C/Snek/Snek Death After.png`,
               caption: 'Snek Before Eating the Fruit',
               description: `If the snake collides with an obstacle or itself, it dies, and the head is shown as 'x'. This project emphasizes efficient memory allocation and deallocation, ensuring optimal performance after each function execution.`,
             },
@@ -129,15 +129,15 @@ const Academics = () => {
           description: 'Created a CPU using RISC-V instructions in Logisim from scratch. This project involved implementing a 2-stage pipeline and ROM-based control logic. The CPU includes 32 registers and supports 16 instructions, covering arithmetic operations, storing and loading, branching, and jumping. The images below show portions of the work; however, they have been intentionally blurred to prevent possible academic dishonesty.',
           images: [
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61C/CPU/Regfile.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61C/CPU/Regfile.png`,
               caption: '32 Registries',
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61C/CPU/Control Logic.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61C/CPU/Control Logic.png`,
               caption: 'Control Logic',
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61C/CPU/CPU.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61C/CPU/CPU.png`,
               caption: 'CPU',
             }
           ]
@@ -155,32 +155,32 @@ const Academics = () => {
           description: 'NGram compares word usage trends over time, visualizes data in graphs or text, and displays hyponyms with adjustable parameters.',
           images: [
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61B/NGram/NGram Comparison.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61B/NGram/NGram Comparison.png`,
               caption: 'Comparing Two Words',
               description: `Designed and developed the backend of an NGram tool for exploring the history of word usage in English texts. This tool allows users to compare the usage of words over time by implementing an extended form of a tree map to handle query times efficiently.`,
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61B/NGram/NGram 1400.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61B/NGram/NGram 1400.png`,
               caption: 'Trend from 1400 to 2020',
               description: `Users can specify a range of years, from a minimum of 1400 to a maximum of 2023, to analyze trends.`,
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61B/NGram/NGram Text.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61B/NGram/NGram Text.png`,
               caption: 'Trend in Text Format',
               description: `By default, the tool visualizes data through graphs, but it also offers the option to display results in text format.`,
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61B/NGram/NGram Hyponym.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61B/NGram/NGram Hyponym.png`,
               caption: 'Hyponyms',
               description: `By default, the tool visualizes data through graphs, but it also offers the option to display results in text format.`,
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61B/NGram/NGram Hyponym K.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61B/NGram/NGram Hyponym K.png`,
               caption: 'K Most Popular Hyponyms',
               description: `Additionally, the tool features the ability to show hyponyms of given queries, with users having the option to specify the maximum number of hyponyms (k) to display. If k is not specified, all hyponyms are listed. If specified and k is less than the total number of hyponyms, the tool outputs the k most popular hyponyms within the given time period.`,
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61B/NGram/NGram Hyponym Words.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61B/NGram/NGram Hyponym Words.png`,
               caption: 'List of Common Hyponyms',
               description: `Users can also list queries to find common hyponyms between different words.`,
             },
@@ -192,51 +192,51 @@ const Academics = () => {
           description: 'BYOW constructs an intricate, explorable world in which the protagonist navigates through a network of interconnected rooms and hallways, each uniquely generated by a distinct seed. The primary objective is to discover a path leading to the locked door.',
           images: [
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61B/BYOW/CS61B BYOW Main.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61B/BYOW/CS61B BYOW Main.png`,
               caption: 'Main page',
               description: `The main menu presents a variety of options including starting a new game, loading a previously saved game, replaying the current game, changing the avatar's name, and exiting the game.`,
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61B/BYOW/CS61B BYOW Seed.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61B/BYOW/CS61B BYOW Seed.png`,
               caption: 'Seed page',
               description: 'Players can input any integer as a seed number to procedurally generate a unique world.',
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61B/BYOW/CS61B BYOW Gameplay.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61B/BYOW/CS61B BYOW Gameplay.png`,
               caption: 'Gameplay',
               description: `The procedurally generated world features a variety of rooms and hallways of varying sizes and quantities, interconnected to form a complex maze. Players navigate their character, represented by the '@' symbol, through these spaces, adhering to the restriction of not traversing the walls denoted by '#'.`
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61B/BYOW/CS61B BYOW HUD.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61B/BYOW/CS61B BYOW HUD.png`,
               caption: 'HUD',
               description: 'The Heads-Up Display (HUD), on the top-left corner of the game, dynamically indicates the nature of the object or area at which the player’s mouse is pointing, identifying characters, walls, locked doors, void spaces, and explorable floors.',
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61B/BYOW/CS61B BYOW Ending.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61B/BYOW/CS61B BYOW Ending.png`,
               caption: 'Ending',
               description: 'Upon reaching the locked door, the player triumphs, at which point any key press will return them to the main menu.',
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61B/BYOW/CS61B BYOW Replay.gif`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61B/BYOW/CS61B BYOW Replay.gif`,
               caption: 'Replay',
               description: 'Players have the option to replay their previous game at any time, irrespective of whether they completed it.',
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61B/BYOW/CS61B BYOW Change Name.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61B/BYOW/CS61B BYOW Change Name.png`,
               caption: `Original Avatar's Name`,
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61B/BYOW/CS61B BYOW New Name.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61B/BYOW/CS61B BYOW New Name.png`,
               caption: `Changing Avatar's Name`,
               description: `Players can personalize their experience by changing the avatar's name.`,
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61B/BYOW/CS61B BYOW Original Name Gameplay.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61B/BYOW/CS61B BYOW Original Name Gameplay.png`,
               caption: 'Original Name',
               description: 'Before changing the name of the character, when pointing at the character, HUD displays the "you".',
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61B/BYOW/CS61B BYOW New Name Gameplay.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61B/BYOW/CS61B BYOW New Name Gameplay.png`,
               caption: 'Image 9 Caption',
               description: `After changing character's name, when the player points at the character, the HUD will display the newly assigned name.`,
             },
@@ -255,22 +255,22 @@ const Academics = () => {
           description: `Cats is a typing game that measures real-time accuracy and speed, supports topic-specific paragraphs, includes an auto-correct feature, and allows multiplayer competition with word-specific timestamps.`,
           images: [
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61A/Cats/CATS Home.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61A/Cats/CATS Home.png`,
               caption: 'Cats Main',
               description: `Cats is a typing game where players type a given paragraph as accurately and quickly as possible. Users can specify the paragraph topic by typing in word or list of words.`,
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61A/Cats/CATS End.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61A/Cats/CATS End.png`,
               caption: 'Cats Gameplay',
               description: `The program calculates real-time accuracy rates and words-per-minute.`,
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61A/Cats/CATS Autocorrect.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61A/Cats/CATS Autocorrect.png`,
               caption: 'Cats Auto-correct Enabled',
               description: `The auto-correct feature helps by suggesting the closest correct word for slight mistakes.`,
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61A/Cats/CATS Leaderboard.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61A/Cats/CATS Leaderboard.png`,
               caption: 'Cats Leaderboard',
               description: `The game also supports multiplayer mode, allowing players to compete against each other, and track performance on a leaderboard. It records the timestamp of each word typed, identifying the fastest word typed by each player.`,
             },
@@ -282,22 +282,22 @@ const Academics = () => {
           description: `Ants Vs. Some Bees is a tower defense game where bees enter the ant colony each turn, ants are placed for defense, and all insects then act individually; bees move or sting while ants perform actions based on their type. The player loses if a bee reaches the tunnel's end or the QueenAnt is destroyed, and wins if all bees are defeated.`,
           images: [
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61A/Ants/Ants Main.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61A/Ants/Ants Main.png`,
               caption: 'Ants Main',
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61A/Ants/Ants Gameplay.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61A/Ants/Ants Gameplay.png`,
               caption: 'Ants Gameplay',
               description: `Users select ants based on their unique food costs to place in the tunnel, which is made up of linked places. Placing a HarvesterAnt in the tunnel allows users to gain additional food.`,
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61A/Ants/Ants Characters.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61A/Ants/Ants Characters.png`,
               caption: 'Ants Characters',
               description: `Each ant belongs to a different class, determining its abilities, food cost, and health. For example, the ThrowerAnt deals long-distance damage, the FireAnt inflicts damage when attacked, and other classes include WallAnt, HungryAnt, BodyguardAnt, TankAnt, and QueenAnt.`,
               link: "https://cs61a.org/proj/ants/",
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61A/Ants/Ants Water.png`,
+              src: `${process.env.PUBLIC_URL}/academics/CS61A/Ants/Ants Water.png`,
               caption: 'Ants Water',
               description: `Additionally, users can add water terrain to the map, which only the ScubaThrower class can traverse without being affected.`,
             },
