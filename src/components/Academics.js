@@ -255,22 +255,22 @@ const Academics = () => {
           description: `Cats is a typing game that measures real-time accuracy and speed, supports topic-specific paragraphs, includes an auto-correct feature, and allows multiplayer competition with word-specific timestamps.`,
           images: [
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61A/Cats/Cats Home.png`,
+              src: `${process.env.PUBLIC_URL}/Academics/CS61A/Cats/CATS Home.png`,
               caption: 'Cats Main',
               description: `Cats is a typing game where players type a given paragraph as accurately and quickly as possible. Users can specify the paragraph topic by typing in word or list of words.`,
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61A/Cats/Cats End.png`,
+              src: `${process.env.PUBLIC_URL}/Academics/CS61A/Cats/CATS End.png`,
               caption: 'Cats Gameplay',
               description: `The program calculates real-time accuracy rates and words-per-minute.`,
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61A/Cats/Cats Autocorrect.png`,
+              src: `${process.env.PUBLIC_URL}/Academics/CS61A/Cats/CATS Autocorrect.png`,
               caption: 'Cats Auto-correct Enabled',
               description: `The auto-correct feature helps by suggesting the closest correct word for slight mistakes.`,
             },
             {
-              src: `${process.env.PUBLIC_URL}/Academics/CS61A/Cats/Cats Leaderboard.png`,
+              src: `${process.env.PUBLIC_URL}/Academics/CS61A/Cats/CATS Leaderboard.png`,
               caption: 'Cats Leaderboard',
               description: `The game also supports multiplayer mode, allowing players to compete against each other, and track performance on a leaderboard. It records the timestamp of each word typed, identifying the fastest word typed by each player.`,
             },

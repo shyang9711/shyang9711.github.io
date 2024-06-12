@@ -154,7 +154,7 @@ const App = () => {
                             margin: 0, // Remove margin
                           }}
                         >
-                          {`${index + 4}. ${t.name}`}
+                          {`${index + links.length + 1}. ${t.name}`}
                         </Typography>
                       </Box>
                     ))}
@@ -170,7 +170,7 @@ const App = () => {
                               margin: 0, // Remove margin
                             }}
                           >
-                            {`${themeSize + 4}. Previous`}
+                            {`${themeSize + links.length + 1}. Previous`}
                           </Typography>
                         </Button>
                       )}
@@ -185,7 +185,7 @@ const App = () => {
                               margin: 0, // Remove margin
                             }}
                           >
-                            {`${themeSize + 5}. Next`}
+                            {`${themeSize + links.length + 2}. Next`}
                           </Typography>
                         </Button>
                       )}
