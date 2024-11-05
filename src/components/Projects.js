@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div>
       <h2>Projects</h2>
-      <p>Here are my projects.</p>
+      <link href="https://gamewalker.onrender.com"></link>
     </div>
   );
 };

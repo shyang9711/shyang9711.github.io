@@ -11,6 +11,7 @@ import Projects from './components/Projects';
 import Resume from './components/Resume';
 import ThemeCard from './components/ThemeCard';
 import { themes } from './components/Themes'; // Import themes
+import FilmStocks from './components/Film Stocks';
 
 const App = () => {
   const [theme, setTheme] = useState(themes[0].theme);
@@ -58,6 +59,7 @@ const App = () => {
     { path: '/resume', label: 'Resume' },
     { path: '/academics', label: 'Academics' },
     { path: '/projects', label: 'Projects' },
+    { path: '/film stocks', label: 'Film Stocks' },
   ];
 
   const displayedTheme = themes.slice(themeIndex, themeIndex + themeSize);
@@ -76,7 +78,7 @@ const App = () => {
           </Box>
           {!isHomePage && (
             <Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'normal' }}>
-              <Box sx={{ display: 'flex', gap: 10 }}>
+              <Box sx={{ display: 'flex', gap: 5 }}>
                 {links.map((link, index) => (
                   <Link
                     key={index}
@@ -226,6 +228,7 @@ const App = () => {
           <Route path="/resume" element={<Resume />} />
           <Route path="/academics" element={<Academics />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/film stocks" element={<FilmStocks />} />
         </Routes>
       </Container>
     </ThemeProvider>

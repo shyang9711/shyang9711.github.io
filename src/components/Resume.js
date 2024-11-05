@@ -5,7 +5,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import { Box, Link } from '@mui/material';
 
 const Resume = () => {
-  const pdfUrl = `${process.env.PUBLIC_URL}/Resume_Revised_Tech.pdf`; // Path to your PDF file in the public directory
+  const pdfUrl = `${process.env.PUBLIC_URL}/Resume_Revised.pdf`; // Path to your PDF file in the public directory
   const linkedInUrl = 'https://www.linkedin.com/in/seung-hyun-yang-474a77183'; // Your LinkedIn profile URL
   const githubUrl = 'https://github.com/shyang9711'; // Your GitHub profile URL
   const mailToUrl = 'mailto:shayng9711@berkeley.edu'; // Your email address

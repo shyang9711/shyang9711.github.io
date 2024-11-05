@@ -24,7 +24,6 @@ export const themes = [
           fontFamily: 'Arial, sans-serif',
           color: '#ffffff', // Black color for light theme
           textDecoration: 'none',
-          width: '100px',
           alignItems: 'center'
         },
         themesBox: {
@@ -81,7 +80,6 @@ export const themes = [
           fontFamily: 'Roboto, sans-serif',
           color: '#ffffff', // White color for dark theme
           textDecoration: 'none',
-          width: '100px',
           alignItems: 'center'
         },
         linksBox: {
@@ -138,9 +136,7 @@ export const themes = [
         toolStyle: {
             fontFamily: "'DungGeunMo', monospace",
             color: '#ffffff', // White color for Hi-Tel theme
-            fontSize: '20px',
             textAlign: 'left',
-            width: '130px',
             textDecoration: 'none',
             alignItems: 'center'
         },
